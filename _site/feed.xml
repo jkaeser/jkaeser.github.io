@@ -2,13 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>John Kaeser</title>
-    <description>A thought garden.
-</description>
+    <description></description>
     <link>http://jkaeser.github.io/</link>
     <atom:link href="http://jkaeser.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 06 Nov 2015 14:45:10 -0500</pubDate>
-    <lastBuildDate>Fri, 06 Nov 2015 14:45:10 -0500</lastBuildDate>
-    <generator>Jekyll v3.0.0</generator>
+    <pubDate>Mon, 21 Nov 2016 23:06:05 -0500</pubDate>
+    <lastBuildDate>Mon, 21 Nov 2016 23:06:05 -0500</lastBuildDate>
+    <generator>Jekyll v3.3.0</generator>
     
   </channel>
 </rss>

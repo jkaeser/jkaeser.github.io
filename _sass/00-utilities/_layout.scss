@@ -32,7 +32,7 @@
         display: none;
     }
 
-    .page-link {
+    .header__navigation-link {
         color: $text-color;
         line-height: $base-line-height;
 
@@ -70,17 +70,17 @@
             }
         }
 
-        .trigger {
+        .header__navigation {
             clear: both;
             display: none;
         }
 
-        &:hover .trigger {
+        &:hover .header__navigation {
             display: block;
             padding-bottom: 5px;
         }
 
-        .page-link {
+        .header__navigation-link {
             display: block;
             padding: 5px 10px;
 

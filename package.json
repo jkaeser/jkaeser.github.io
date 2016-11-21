@@ -1,0 +1,38 @@
+{
+  "name": "werner",
+  "version": "1.0.0",
+  "description": "John Kaeser's personal site.",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jkaeser/werner.git"
+  },
+  "author": "John Kaeser",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jkaeser/werner/issues"
+  },
+  "homepage": "https://github.com/jkaeser/werner#readme",
+  "devDependencies": {
+    "autoprefixer": "^6.5.3",
+    "browser-sync": "^2.18.2",
+    "css-mqpacker": "^5.0.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-favicons": "^2.2.7",
+    "gulp-if": "^2.0.2",
+    "gulp-inject": "^4.1.0",
+    "gulp-notify": "^2.2.0",
+    "gulp-postcss": "^6.2.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.3.2",
+    "gulp-sass-globbing": "0.0.2",
+    "gulp-shell": "^0.5.2",
+    "gulp-sourcemaps": "^1.9.1",
+    "gulp-uglify": "^2.0.0",
+    "gulp-util": "^3.0.7",
+    "yargs": "^6.4.0"
+  }
+}

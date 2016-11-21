@@ -13,10 +13,10 @@
         </svg>
       </a>
 
-      <div class="trigger">
-        {% for my_page in site.pages %}
-          {% if my_page.title %}
-          <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
+      <div class="header__navigation">
+        {% for link in site.data.navigation %}
+          {% if link.url %}
+          <a class="header__navigation-link" href="{{ link.url }}">{{ link.name }}</a>
           {% endif %}
         {% endfor %}
       </div>
