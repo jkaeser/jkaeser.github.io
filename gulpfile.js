@@ -126,12 +126,12 @@ gulp.task('js:combine', function () {
 
 // Generate fav and app icons
 gulp.task('favicons', function () {
-  return gulp.src('images/probo-sphere.png').pipe(favicons({
-      appName: 'ProboCI Docs',
-      appDescription: 'Probo.CI documentation.',
+  return gulp.src('images/battery.png').pipe(favicons({
+      appName: 'John Kaeser',
+      appDescription: 'John Kaeser\'s professional site.',
       background: '#020307',
       path: '/images/favicons/',
-      url: 'http://docs.probo.ci/',
+      url: 'jkaeser.github.io',
       display: 'standalone',
       orientation: 'portrait',
       start_url: '/?homescreen=1',
