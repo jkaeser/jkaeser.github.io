@@ -1,3 +1,4 @@
 steps:
-  plugin: shell
-  command: "echo 'Hello, World!'"
+  - name: Example
+    plugin: Shell
+    command: "echo 'Hello, World!'"
