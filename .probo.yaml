@@ -1,0 +1,3 @@
+steps:
+  plugin: shell
+  command: "echo 'Hello, World!'"
